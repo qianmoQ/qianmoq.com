@@ -1,0 +1,87 @@
+site_name: qianmoQ
+site_url: https://qianmoq.com
+site_author: qinamoQ
+site_description: >-
+  专注于技术分享的垂直博客,ClickHouse,Spring,Apache,Ambari,Presto
+
+repo_name: qianmoq.com
+repo_url: https://github.com/qianmoq/qianmoq.com
+
+copyright: Copyright &copy; 2021 qianmoq.com
+
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid-experimental
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - i18n:
+      default_language: zh
+      languages:
+        zh: Chinese
+      nav_translations:
+        zh:
+          home: 主页
+          project: 项目
+          configuration_common: common全局配置
+          configuration_node_broker: broker节点配置部署
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    #    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - navigation.indexes
+    - content.tabs.link
+    - content.code.annotate
+
+nav:
+  - 主页:
+    - index.md
+    - project: project.md
+  - Druid:
+      - druid/index.md
+      - Action:
+          - configuration_common: druid/action/configuration_common.md
+          - configuration_node_broker: druid/action/configuration_node_broker.md

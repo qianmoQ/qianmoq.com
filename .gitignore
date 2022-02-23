@@ -1,0 +1,12 @@
+_site
+.sass-cache
+.jekyll-cache
+*.gem
+.bundle
+vendor/bundle
+.idea
+
+# System Files
+.DS_Store
+Thumbs.db
+yarn-error.log
