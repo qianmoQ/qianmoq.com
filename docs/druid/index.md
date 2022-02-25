@@ -27,5 +27,7 @@ Apache Druid 是一个支持现代分析应用程序的实时数据库
 === "Action"
 
     - [x] [common全局配置](./action/configuration_common.md)
-    - [x] [broker节点配置部署](./action/configuration_node_broker.md)
-
+        - [x] [common全局配置(MySQL)](./action/configuration_common_mysql.md)
+        - [x] [common全局配置(HDFS)](./action/configuration_common_hdfs.md)
+    - [x] [Broker节点配置部署](./action/configuration_node_broker.md)
+    - [x] [Coordinator节点配置部署](./action/configuration_node_coordinator.md)

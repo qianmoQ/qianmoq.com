@@ -57,7 +57,10 @@ plugins:
           home: 主页
           project: 项目
           configuration_common: common全局配置
-          configuration_node_broker: broker节点配置部署
+          configuration_common_mysql: common全局配置(MySQL)
+          configuration_common_hdfs: common全局配置(HDFS)
+          configuration_node_broker: Broker节点配置部署
+          configuration_node_coordinator: Coordinator节点配置部署
 
 theme:
   name: material
@@ -84,4 +87,7 @@ nav:
       - druid/index.md
       - Action:
           - configuration_common: druid/action/configuration_common.md
+          - configuration_common_mysql: druid/action/configuration_common_mysql.md
+          - configuration_common_hdfs: druid/action/configuration_common_hdfs.md
           - configuration_node_broker: druid/action/configuration_node_broker.md
+          - configuration_node_coordinator: druid/action/configuration_node_coordinator.md

@@ -76,13 +76,13 @@ druid.cache.sizeInBytes=20000000
 - **druid.cache.type**: druid-io的缓冲类型，默认为local，可配置为redis等
 - **druid.cache.sizeInBytes**: druid-io的缓冲大小
 
-!!! warning
-
-    **服务启动命令脚本(进入druid-io安装文件的根目录)**
-
 ### 命令行
 
 ---
+
+!!! warning
+
+    **服务启动命令脚本(进入druid-io安装文件的根目录)**
 
 - 基本启动方式
 
