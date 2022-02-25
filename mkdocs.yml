@@ -49,6 +49,8 @@ markdown_extensions:
   - pymdownx.tilde
 
 plugins:
+  - tags:
+      tags_file: tags.md
   - i18n:
       default_language: zh
       languages:

@@ -1,3 +1,10 @@
+---
+tags:
+  - Apache
+  - Druid
+  - 大数据
+---
+
 Apache Druid 是一个支持现代分析应用程序的实时数据库
 
 ### Druid特性

@@ -1,3 +1,10 @@
+---
+tags:
+- Apache
+- Druid
+- 大数据
+---
+
 !!! note
 
     以下操作需要进入druid-io安装文件的根目录下操作，比如我的druid-io安装目录为： `/hadoop/dc/druid-0.9.1.1`
