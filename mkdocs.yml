@@ -62,14 +62,14 @@ plugins:
           configuration_common_hdfs: common全局配置(HDFS)
           configuration_node_broker: Broker节点配置部署
           configuration_node_coordinator: Coordinator节点配置部署
+          configuration_node_historical: Historical节点配置部署
 
 theme:
   name: material
   language: zh
   features:
     - navigation.tabs
-    #    - navigation.tabs.sticky
-    - navigation.sections
+#    - navigation.sections
     - navigation.expand
     - navigation.top
     - navigation.tracking
@@ -87,8 +87,11 @@ nav:
   - Druid:
       - druid/index.md
       - Action:
-          - configuration_common: druid/action/configuration_common.md
-          - configuration_common_mysql: druid/action/configuration_common_mysql.md
-          - configuration_common_hdfs: druid/action/configuration_common_hdfs.md
-          - configuration_node_broker: druid/action/configuration_node_broker.md
-          - configuration_node_coordinator: druid/action/configuration_node_coordinator.md
+          - Configuration(Common):
+            - configuration_common: druid/action/configuration_common.md
+            - configuration_common_mysql: druid/action/configuration_common_mysql.md
+            - configuration_common_hdfs: druid/action/configuration_common_hdfs.md
+          - Configuration(Node):
+            - configuration_node_broker: druid/action/configuration_node_broker.md
+            - configuration_node_coordinator: druid/action/configuration_node_coordinator.md
+            - configuration_node_historical: druid/action/configuration_node_historical.md

@@ -9,53 +9,64 @@
 
 - 编辑 **jvm.conf** 配置文件
 
-```bash
-vim conf/druid/broker/jvm.config
+```java
+vim conf/druid/historical/jvm.config
 ```
 
-在文件中写入以下内容:
+修改为以下内容
 
-```bash
+```java
 -server
--Xms3g
--Xmx3g
+-Xms8g
+-Xmx8g
+-XX:MaxDirectMemorySize=4096m
 -Duser.timezone=UTC
 -Dfile.encoding=UTF-8
 -Djava.io.tmpdir=var/tmp
 -Djava.util.logging.manager=org.apache.logging.log4j.jul.LogManager
--Dderby.stream.error.file=var/druid/derby.log
 ```
 
 - **-Xms**: 设置初始的(最小的)Heap的大小 此值可以设置与`-Xmx`相同，以避免每次垃圾回收完成后JVM重新分配内存
 - **-Xmx**: 设置最大Heap的大小
+- **-XX:MaxDirectMemorySize**: 此参数的含义是当`Direct ByteBuffer`分配的堆外内存到达指定大小后，即触发Full GC。注意该值是有上限的，默认是64M，最大为`sun.misc.VM.maxDirectMemory()`，在程序中中可以获得`-XX:MaxDirectMemorySize`的设置的值,不要设置过大，合理即可。
 - **-Duser.timezone**: 时区类型
 - **-Dfile.encoding**: 文件编码
 - **-Djava.io.tmpdir**: 系统缓冲临时目录
 - **-Djava.util.logging.manager**: Log监控管理工具类
-- **-Dderby.stream.error.file**: 内置数据库出现错误写入的文件
 
 ### 节点配置
 
 ---
 
 ```java
-vim conf/druid/coordinator/runtime.properties
+vim conf/druid/historical/runtime.properties
 ```
 
 修改为以下内容
 
 ```java
-druid.service=druid/coordinator
-druid.port=8081
+druid.service=druid/historical
+druid.port=8083
  
-druid.coordinator.startDelay=PT30S
-druid.coordinator.period=PT30S
+# HTTP server threads
+druid.server.http.numThreads=25
+ 
+# Processing threads and buffers
+druid.processing.buffer.sizeBytes=536870912
+druid.processing.numThreads=7
+ 
+# Segment storage
+druid.segmentCache.locations=[{"path":"var/druid/segment-cache","maxSize"\:130000000000}]
+druid.server.maxSize=130000000000
 ```
 
 - **druid.service**: 服务名称和`_common`中相关联
 - **druid.port**: 当前服务端口
-- **druid.coordinator.startDelay**: 延迟协调数据载入，这种延迟是一种破解，让它有足够的时间相信它拥有所有数据。
-- **druid.coordinator.period**: 协调器的运行期。协调器通过在存储器中维护当前状态并定期查看可用的段集和服务的段来进行操作，以决定是否需要对数据拓扑进行任何更改。此属性设置每次运行之间的延迟。
+- **druid.server.http.numThreads**: http服务的最大链接线程
+- **druid.processing.buffer.sizeBytes**: druid-io进程buffer的单线程大小，注意该数值*线程数大小不得超过jvm中的xmx配置数据
+- **druid.processing.numThreads**: druid-io进程buffer的线程总数
+- **druid.segmentCache.locations**: segment缓冲路径地址，最大加载大小字节
+- **druid.server.maxSize**: 服务器的最大加载字节
 
 ### 命令行
 
@@ -67,12 +78,12 @@ druid.coordinator.period=PT30S
 
 - 基本启动方式
 
-```bash
-java `cat conf/druid/coordinator/jvm.config | xargs` -cp "conf/druid/_common:conf/druid/coordinator:lib/*" io.druid.cli.Main server coordinator
+```java
+java `cat conf/druid/historical/jvm.config | xargs` -cp "conf/druid/_common:conf/druid/historical:lib/*" io.druid.cli.Main server historical
 ```
 
 - 后台启动方式
 
-```bash
-nohup java `cat conf/druid/coordinator/jvm.config | xargs` -cp "conf/druid/_common:conf/druid/coordinator:lib/*" io.druid.cli.Main server coordinator >coordinator.log 2>&1 &
+```java
+nohup java `cat conf/druid/historical/jvm.config | xargs` -cp "conf/druid/_common:conf/druid/historical:lib/*" io.druid.cli.Main server historical >historical.log 2>&1 &
 ```
