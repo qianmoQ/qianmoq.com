@@ -5,8 +5,10 @@ _site
 .bundle
 vendor/bundle
 .idea
+.vscode
 
 # System Files
 .DS_Store
 Thumbs.db
 yarn-error.log
+
