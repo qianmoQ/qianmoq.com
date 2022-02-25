@@ -67,6 +67,7 @@ plugins:
           configuration_node_historical: Historical节点配置部署
           configuration_node_middleManager: MiddleManager节点配置部署
           configuration_node_overlord: Overlord节点配置部署
+          binder-basic: Guice依赖注入(基础版)
 
 theme:
   name: material
@@ -84,20 +85,25 @@ theme:
     - content.tabs.link
     - content.code.annotate
 
+use_directory_urls: false
+
 nav:
   - 主页:
     - index.md
     - project: project.md
   - Apache Druid:
-      - druid/index.md
+      - apache/druid/index.md
       - Action:
           - Configuration(Common):
-            - configuration_common: druid/action/configuration_common.md
-            - configuration_common_mysql: druid/action/configuration_common_mysql.md
-            - configuration_common_hdfs: druid/action/configuration_common_hdfs.md
+            - configuration_common: apache/druid/action/configuration_common.md
+            - configuration_common_mysql: apache/druid/action/configuration_common_mysql.md
+            - configuration_common_hdfs: apache/druid/action/configuration_common_hdfs.md
           - Configuration(Node):
-            - configuration_node_broker: druid/action/configuration_node_broker.md
-            - configuration_node_coordinator: druid/action/configuration_node_coordinator.md
-            - configuration_node_historical: druid/action/configuration_node_historical.md
-            - configuration_node_middleManager: druid/action/configuration_node_middleManager.md
-            - configuration_node_overlord: druid/action/configuration_node_overlord.md
+            - configuration_node_broker: apache/druid/action/configuration_node_broker.md
+            - configuration_node_coordinator: apache/druid/action/configuration_node_coordinator.md
+            - configuration_node_historical: apache/druid/action/configuration_node_historical.md
+            - configuration_node_middleManager: apache/druid/action/configuration_node_middleManager.md
+            - configuration_node_overlord: apache/druid/action/configuration_node_overlord.md
+  - Google Guice:
+      - google/guice/index.md
+      - binder-basic: google/guice/binder-basic.md
