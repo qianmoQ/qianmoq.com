@@ -66,6 +66,7 @@ plugins:
           configuration_node_coordinator: Coordinator节点配置部署
           configuration_node_historical: Historical节点配置部署
           configuration_node_middleManager: MiddleManager节点配置部署
+          configuration_node_overlord: Overlord节点配置部署
 
 theme:
   name: material
@@ -99,3 +100,4 @@ nav:
             - configuration_node_coordinator: druid/action/configuration_node_coordinator.md
             - configuration_node_historical: druid/action/configuration_node_historical.md
             - configuration_node_middleManager: druid/action/configuration_node_middleManager.md
+            - configuration_node_overlord: druid/action/configuration_node_overlord.md
