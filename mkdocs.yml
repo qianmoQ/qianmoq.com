@@ -63,6 +63,7 @@ plugins:
           configuration_node_broker: Broker节点配置部署
           configuration_node_coordinator: Coordinator节点配置部署
           configuration_node_historical: Historical节点配置部署
+          configuration_node_middleManager: MiddleManager节点配置部署
 
 theme:
   name: material
@@ -84,7 +85,7 @@ nav:
   - 主页:
     - index.md
     - project: project.md
-  - Druid:
+  - Apache Druid:
       - druid/index.md
       - Action:
           - Configuration(Common):
@@ -95,3 +96,4 @@ nav:
             - configuration_node_broker: druid/action/configuration_node_broker.md
             - configuration_node_coordinator: druid/action/configuration_node_coordinator.md
             - configuration_node_historical: druid/action/configuration_node_historical.md
+            - configuration_node_middleManager: druid/action/configuration_node_middleManager.md
