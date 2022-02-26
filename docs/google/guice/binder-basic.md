@@ -79,7 +79,7 @@ mvn archetype:generate -DgroupId=io.edurt.lc.guice -DartifactId=guice-binder-bas
 </dependency>
 ```
 
-- 在`src/main/java`目录下新建**io.edurt.lc.guice**目录并在该目录下新建`GuiceBasicModule`类文件,在文件输入以下内容
+- 在`src/main/java`目录下新建 **io.edurt.lc.guice** 目录并在该目录下新建`GuiceBasicModule`类文件,在文件输入以下内容
 
 ```java
 package io.edurt.lc.guice;
@@ -99,7 +99,7 @@ Guice中的绑定模型和Spring中的一样简单,我们通过绑定可以提�
 
 绑定我们需要的Module只需要继承Guice中的`com.google.inject.AbstractModule`即可,在`configure`方法中实现我们需要的绑定信息.
 
-- 在`src/test/java`源代码目录下构建**io.edurt.lc.guice.TestGuiceBasicModule**单元测试类文件用于我们测试代码,在文件输入以下内容
+- 在`src/test/java`源代码目录下构建 **io.edurt.lc.guice.TestGuiceBasicModule** 单元测试类文件用于我们测试代码,在文件输入以下内容
 
 ```java
 package io.edurt.lc.guice;
