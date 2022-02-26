@@ -68,6 +68,7 @@ plugins:
           configuration_node_middleManager: MiddleManager节点配置部署
           configuration_node_overlord: Overlord节点配置部署
           binder-basic: Guice依赖注入(基础版)
+          binder-constructor: Guice依赖注入(构造函数)
 
 theme:
   name: material
@@ -107,3 +108,4 @@ nav:
   - Google Guice:
       - google/guice/index.md
       - binder-basic: google/guice/binder-basic.md
+      - binder-constructor: google/guice/binder-constructor.md
