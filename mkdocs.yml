@@ -73,6 +73,7 @@ plugins:
           binder-provider: Guice依赖注入(Provider)
           binder-scope: Guice依赖注入(Scope)
           binder-scope-other: Guice依赖注入(Scope其他方式)
+          aop-basic: Guice AOP(基础版)
 
 theme:
   name: material
@@ -112,9 +113,11 @@ nav:
   - Google Guice:
       - google/guice/index.md
       - Binder:
-        - binder-basic: google/guice/binder-basic.md
-        - binder-constructor: google/guice/binder-constructor.md
-        - binder-multiple: google/guice/binder-multiple.md
-        - binder-provider: google/guice/binder-provider.md
-        - binder-scope: google/guice/binder-scope.md
-        - binder-scope-other: google/guice/binder-scope-other.md
+          - binder-basic: google/guice/binder-basic.md
+          - binder-constructor: google/guice/binder-constructor.md
+          - binder-multiple: google/guice/binder-multiple.md
+          - binder-provider: google/guice/binder-provider.md
+          - binder-scope: google/guice/binder-scope.md
+          - binder-scope-other: google/guice/binder-scope-other.md
+      - Aop:
+          - aop-basic: google/guice/aop-basic.md
