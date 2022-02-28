@@ -72,6 +72,7 @@ plugins:
           binder-multiple: Guice依赖注入(接口多实现)
           binder-provider: Guice依赖注入(Provider)
           binder-scope: Guice依赖注入(Scope)
+          binder-scope-other: Guice依赖注入(Scope其他方式)
 
 theme:
   name: material
@@ -116,3 +117,4 @@ nav:
         - binder-multiple: google/guice/binder-multiple.md
         - binder-provider: google/guice/binder-provider.md
         - binder-scope: google/guice/binder-scope.md
+        - binder-scope-other: google/guice/binder-scope-other.md
