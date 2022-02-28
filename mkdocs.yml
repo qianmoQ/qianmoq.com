@@ -76,6 +76,7 @@ plugins:
           binder-scope-other: Guice依赖注入(Scope其他方式)
           aop-basic: Guice AOP(基础版)
           aop-senior: Guice AOP(进阶版)
+          aop-matcher: Guice AOP(Matcher)
 
 theme:
   name: material
@@ -124,3 +125,4 @@ nav:
       - Aop:
           - aop-basic: google/guice/aop-basic.md
           - aop-senior: google/guice/aop-senior.md
+          - aop-matcher: google/guice/aop-matcher.md
