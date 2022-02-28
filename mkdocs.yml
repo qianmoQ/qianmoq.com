@@ -49,6 +49,7 @@ markdown_extensions:
   - pymdownx.tilde
 
 plugins:
+  - search
   - tags:
       tags_file: tags.md
   - i18n:
@@ -74,6 +75,7 @@ plugins:
           binder-scope: Guice依赖注入(Scope)
           binder-scope-other: Guice依赖注入(Scope其他方式)
           aop-basic: Guice AOP(基础版)
+          aop-senior: Guice AOP(进阶版)
 
 theme:
   name: material
@@ -121,3 +123,4 @@ nav:
           - binder-scope-other: google/guice/binder-scope-other.md
       - Aop:
           - aop-basic: google/guice/aop-basic.md
+          - aop-senior: google/guice/aop-senior.md
