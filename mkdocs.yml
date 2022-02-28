@@ -69,6 +69,8 @@ plugins:
           configuration_node_overlord: Overlord节点配置部署
           binder-basic: Guice依赖注入(基础版)
           binder-constructor: Guice依赖注入(构造函数)
+          binder-multiple: Guice依赖注入(接口多实现)
+          binder-provider: Guice依赖注入(Provider)
 
 theme:
   name: material
@@ -107,5 +109,8 @@ nav:
             - configuration_node_overlord: apache/druid/action/configuration_node_overlord.md
   - Google Guice:
       - google/guice/index.md
-      - binder-basic: google/guice/binder-basic.md
-      - binder-constructor: google/guice/binder-constructor.md
+      - Binder:
+        - binder-basic: google/guice/binder-basic.md
+        - binder-constructor: google/guice/binder-constructor.md
+        - binder-multiple: google/guice/binder-multiple.md
+        - binder-provider: google/guice/binder-provider.md
