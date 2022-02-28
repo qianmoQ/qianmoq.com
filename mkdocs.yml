@@ -49,6 +49,7 @@ markdown_extensions:
   - pymdownx.tilde
 
 plugins:
+  - search
   - tags:
       tags_file: tags.md
   - i18n:
@@ -74,6 +75,9 @@ plugins:
           binder-scope: Guice依赖注入(Scope)
           binder-scope-other: Guice依赖注入(Scope其他方式)
           aop-basic: Guice AOP(基础版)
+          aop-senior: Guice AOP(进阶版)
+          aop-matcher: Guice AOP(Matcher)
+          clickhouse_configuration_basic: ClickHouse安装部署
 
 theme:
   name: material
@@ -110,6 +114,11 @@ nav:
             - configuration_node_historical: apache/druid/action/configuration_node_historical.md
             - configuration_node_middleManager: apache/druid/action/configuration_node_middleManager.md
             - configuration_node_overlord: apache/druid/action/configuration_node_overlord.md
+  - ClickHouse:
+      - clickhouse/index.md
+      - Action:
+          - Configuration:
+            - clickhouse_configuration_basic: clickhouse/action/configuration_basic.md
   - Google Guice:
       - google/guice/index.md
       - Binder:
@@ -121,3 +130,5 @@ nav:
           - binder-scope-other: google/guice/binder-scope-other.md
       - Aop:
           - aop-basic: google/guice/aop-basic.md
+          - aop-senior: google/guice/aop-senior.md
+          - aop-matcher: google/guice/aop-matcher.md
