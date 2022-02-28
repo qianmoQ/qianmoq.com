@@ -81,6 +81,7 @@ plugins:
           clickhouse_configuration_cluster: ClickHouse集群配置
           clickhouse_configuration_mulit_cluster: ClickHouse多集群配置
           clickhouse_table_engine_kafka: ClickHouse整合Kafka
+          clickhouse_table_engine_kafka_reader: ClickHouse整合Kafka(读)
 
 theme:
   name: material
@@ -127,6 +128,7 @@ nav:
           - Table Engine:
               - Kafka:
                   - clickhouse_table_engine_kafka: clickhouse/action/table/kafka/table_engine_kafka.md
+                  - clickhouse_table_engine_kafka_reader: clickhouse/action/table/kafka/table-engine-kafka-reader.md
   - Google Guice:
       - google/guice/index.md
       - Binder:
