@@ -7,7 +7,7 @@ site_description: >-
 repo_name: qianmoq.com
 repo_url: https://github.com/qianmoq/qianmoq.com
 
-copyright: Copyright &copy; 2021 qianmoq.com
+copyright: Copyright &copy; 2022 qianmoq.com
 
 markdown_extensions:
   - admonition
@@ -71,6 +71,9 @@ plugins:
           binder-constructor: Guice依赖注入(构造函数)
           binder-multiple: Guice依赖注入(接口多实现)
           binder-provider: Guice依赖注入(Provider)
+          binder-scope: Guice依赖注入(Scope)
+          binder-scope-other: Guice依赖注入(Scope其他方式)
+          aop-basic: Guice AOP(基础版)
 
 theme:
   name: material
@@ -110,7 +113,11 @@ nav:
   - Google Guice:
       - google/guice/index.md
       - Binder:
-        - binder-basic: google/guice/binder-basic.md
-        - binder-constructor: google/guice/binder-constructor.md
-        - binder-multiple: google/guice/binder-multiple.md
-        - binder-provider: google/guice/binder-provider.md
+          - binder-basic: google/guice/binder-basic.md
+          - binder-constructor: google/guice/binder-constructor.md
+          - binder-multiple: google/guice/binder-multiple.md
+          - binder-provider: google/guice/binder-provider.md
+          - binder-scope: google/guice/binder-scope.md
+          - binder-scope-other: google/guice/binder-scope-other.md
+      - Aop:
+          - aop-basic: google/guice/aop-basic.md
