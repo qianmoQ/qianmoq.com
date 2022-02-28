@@ -78,6 +78,8 @@ plugins:
           aop-senior: Guice AOP(进阶版)
           aop-matcher: Guice AOP(Matcher)
           clickhouse_configuration_basic: ClickHouse安装部署
+          clickhouse_configuration_cluster: ClickHouse集群配置
+          clickhouse_configuration_mulit_cluster: ClickHouse多集群配置
 
 theme:
   name: material
@@ -119,6 +121,8 @@ nav:
       - Action:
           - Configuration:
             - clickhouse_configuration_basic: clickhouse/action/configuration_basic.md
+            - clickhouse_configuration_cluster: clickhouse/action/configuration_cluster.md
+            - clickhouse_configuration_mulit_cluster: clickhouse/action/configuration_mulit_cluster.md
   - Google Guice:
       - google/guice/index.md
       - Binder:
