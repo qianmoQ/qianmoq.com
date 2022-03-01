@@ -77,6 +77,7 @@ plugins:
           aop-basic: Guice AOP(基础版)
           aop-senior: Guice AOP(进阶版)
           aop-matcher: Guice AOP(Matcher)
+          guice-integration-configuration: 集成Properties配置
           clickhouse_configuration_basic: ClickHouse安装部署
           clickhouse_configuration_cluster: ClickHouse集群配置
           clickhouse_configuration_mulit_cluster: ClickHouse多集群配置
@@ -144,3 +145,5 @@ nav:
           - aop-basic: google/guice/aop-basic.md
           - aop-senior: google/guice/aop-senior.md
           - aop-matcher: google/guice/aop-matcher.md
+      - Integration:
+          - guice-integration-configuration: google/guice/integration-configuration.md
