@@ -11,4 +11,4 @@ vendor/bundle
 .DS_Store
 Thumbs.db
 yarn-error.log
-
+aux/

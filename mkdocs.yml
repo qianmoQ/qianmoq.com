@@ -84,6 +84,7 @@ plugins:
           clickhouse_table_engine_kafka: ClickHouse整合Kafka
           clickhouse_table_engine_kafka_reader: ClickHouse整合Kafka(读)
           clickhouse_table_engine_kafka_writer: ClickHouse整合Kafka(写)
+          clickhouse_table_engine_kafka_issues_001: Kafka引擎表常见问题001
 
 theme:
   name: material
@@ -132,6 +133,7 @@ nav:
                   - clickhouse_table_engine_kafka: clickhouse/action/table/kafka/table_engine_kafka.md
                   - clickhouse_table_engine_kafka_reader: clickhouse/action/table/kafka/table-engine-kafka-reader.md
                   - clickhouse_table_engine_kafka_writer: clickhouse/action/table/kafka/table-engine-kafka-writer.md
+                  - clickhouse_table_engine_kafka_issues_001: clickhouse/action/table/kafka/table_engine_kafka_issues_001.md
   - Google Guice:
       - google/guice/index.md
       - Binder:
