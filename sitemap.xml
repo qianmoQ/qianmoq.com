@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+         <loc>https://qianmoq.com/index.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/index.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/project.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/project.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/tags.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/tags.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/apache/druid/index.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/apache/druid/index.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/apache/druid/action/configuration_common.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/apache/druid/action/configuration_common.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/apache/druid/action/configuration_common_hdfs.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/apache/druid/action/configuration_common_hdfs.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/apache/druid/action/configuration_common_mysql.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/apache/druid/action/configuration_common_mysql.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/apache/druid/action/configuration_node_broker.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/apache/druid/action/configuration_node_broker.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/apache/druid/action/configuration_node_coordinator.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/apache/druid/action/configuration_node_coordinator.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/apache/druid/action/configuration_node_historical.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/apache/druid/action/configuration_node_historical.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/apache/druid/action/configuration_node_middleManager.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/apache/druid/action/configuration_node_middleManager.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/apache/druid/action/configuration_node_overlord.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/apache/druid/action/configuration_node_overlord.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/clickhouse/index.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/clickhouse/index.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/clickhouse/action/configuration_basic.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/clickhouse/action/configuration_basic.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/clickhouse/action/configuration_cluster.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/clickhouse/action/configuration_cluster.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/clickhouse/action/configuration_mulit_cluster.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/clickhouse/action/configuration_mulit_cluster.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/clickhouse/action/table/kafka/table-engine-kafka-reader.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/clickhouse/action/table/kafka/table-engine-kafka-reader.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/clickhouse/action/table/kafka/table-engine-kafka-writer.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/clickhouse/action/table/kafka/table-engine-kafka-writer.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/clickhouse/action/table/kafka/table_engine_kafka.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/clickhouse/action/table/kafka/table_engine_kafka.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/clickhouse/action/table/kafka/table_engine_kafka_issues_001.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/clickhouse/action/table/kafka/table_engine_kafka_issues_001.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/google/guice/index.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/google/guice/index.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/google/guice/aop-basic.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/google/guice/aop-basic.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/google/guice/aop-matcher.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/google/guice/aop-matcher.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/google/guice/aop-senior.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/google/guice/aop-senior.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/google/guice/binder-basic.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/google/guice/binder-basic.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/google/guice/binder-constructor.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/google/guice/binder-constructor.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/google/guice/binder-multiple.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/google/guice/binder-multiple.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/google/guice/binder-provider.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/google/guice/binder-provider.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/google/guice/binder-scope-other.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/google/guice/binder-scope-other.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/google/guice/binder-scope.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/google/guice/binder-scope.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/google/guice/integration-configuration.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/google/guice/integration-configuration.html"/>
+         
+    </url>
+    <url>
+         <loc>https://qianmoq.com/presto_trino/index.html</loc>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://qianmoq.com/zh/presto_trino/index.html"/>
+         
+    </url>
+</urlset>
