@@ -1,0 +1,70 @@
+{#-
+  This file was automatically generated - do not edit
+-#}
+{% extends "overrides/main.html" %}
+{% block tabs %}
+  {{ super() }}
+  <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
+  <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <div class="mdx-hero">
+        <div class="mdx-hero__image">
+          <img src="assets/images/illustration.png" alt="" width="1659" height="1200" draggable="false">
+        </div>
+        <div class="mdx-hero__content">
+          <h1>qianmoq.com</h1>
+          <h3 class="lead">分享各种大数据相关知识, 编程语言知识.</h3>
+          <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
+            Quick start
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h1 class="font-center">技术分类</h1>
+        <div class="grid cards">
+          <ul>
+            <li>
+              <div class="font-center">
+                <span class="twemoji">
+                  <img src="/assets/integrate/ClickHouse.svg" width="30" height="100" />
+                </span>
+                <strong class="font-center">ClickHouse</strong>
+              </div>
+              <div class="top-margin">
+                ClickHouse是一个用于联机分析(OLAP)的列式数据库管理系统(DBMS)。
+              </div>
+            </li>
+            <li>
+              <div class="font-center">
+                <span class="twemoji">
+                  <img src="/assets/integrate/Presto.svg" width="30" height="100" />
+                </span>
+                <strong class="font-center">Presto</strong>
+              </div>
+              <div class="top-margin">
+                Presto是一个开源的分布式SQL查询引擎，用于对从g字节到pb字节的所有大小的数据源运行交互式分析查询。
+              </div>
+            </li>
+            <li>
+              <div class="font-center">
+                <span class="twemoji">
+                  <img src="/assets/integrate/MySQL.svg" width="30" height="100" />
+                </span>
+                <strong class="font-center">MySQL</strong>
+              </div>
+              <div class="top-margin">
+                MySQL是世界上最流行的开源数据库。无论你是一个快速发展的网站，技术ISV还是大型企业，MySQL都可以经济有效地帮助你交付高性能，可扩展的数据库应用程序。
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <br />
+
+  </section>
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}{% endblock %}

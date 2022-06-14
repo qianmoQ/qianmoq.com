@@ -1,4 +1,5 @@
 ---
+template: overrides/main.html
 tags:
 - Apache
 - Druid
