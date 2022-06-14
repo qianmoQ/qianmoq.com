@@ -85,22 +85,58 @@ plugins:
           clickhouse_table_engine_kafka_reader: ClickHouse整合Kafka(读)
           clickhouse_table_engine_kafka_writer: ClickHouse整合Kafka(写)
           clickhouse_table_engine_kafka_issues_001: Kafka引擎表常见问题001
+  - redirects:
+      redirect_maps:
+        latest.md: presto_trino/index.md
 
 theme:
-  name: material
-  language: zh
+  name: null
+  custom_dir: !ENV [ THEME_DIR, "material" ]
+
+  static_templates:
+    - 404.html
+
+  include_search_page: false
+  search_index_only: true
+
+  language: en
   features:
+    - content.code.annotate
+    - content.tabs.link
+    #    - header.autohide
+    #    - navigation.expand
+    - navigation.indexes
+    - navigation.sections
     - navigation.tabs
-#    - navigation.sections
-    - navigation.expand
     - navigation.top
     - navigation.tracking
     - search.highlight
     - search.share
     - search.suggest
-    - navigation.indexes
     - content.tabs.link
-    - content.code.annotate
+    - navigation.expand
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: logo
+
+extra_css:
+  - stylesheets/extra.css
 
 use_directory_urls: false
 
@@ -149,3 +185,5 @@ nav:
           - aop-matcher: google/guice/aop-matcher.md
       - Integration:
           - guice-integration-configuration: google/guice/integration-configuration.md
+  - Presto & Trino:
+    - presto_trino/index.md

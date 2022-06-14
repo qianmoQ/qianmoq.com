@@ -1,0 +1,41 @@
+{#-
+  This file was automatically generated - do not edit
+-#}
+{% extends "base.html" %}
+{% block extrahead %}
+  <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ 'overrides/assets/stylesheets/main.82a6bf04.min.css' | url }}" />
+{% endblock %}
+{% block announce %}
+  <a href="/latest.html">
+    Presto & Trino 已经加入. <i class="fa fa-heart" style="color: red;"></i>
+  </a>
+{% endblock %}
+
+{% block content %}
+{{ super() }}
+<!-- Giscus -->
+<h2 id="__comments">{{ lang.t("meta.comments") }}</h2>
+<!-- Replace with generated snippet -->
+<script src="https://giscus.app/client.js"
+        data-repo="qianmoq/qianmoq.com"
+        data-repo-id="R_kgDOG6B8EQ"
+        data-category="General"
+        data-category-id="DIC_kwDOG6B8Ec4CBXbm"
+        data-mapping="pathname"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+<!-- Reload on palette change -->
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  <script src="{{ 'overrides/assets/javascripts/bundle.5c8bd0f7.min.js' | url }}"></script>
+{% endblock %}
