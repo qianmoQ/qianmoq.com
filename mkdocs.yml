@@ -85,6 +85,7 @@ plugins:
           clickhouse_table_engine_kafka_reader: ClickHouse整合Kafka(读)
           clickhouse_table_engine_kafka_writer: ClickHouse整合Kafka(写)
           clickhouse_table_engine_kafka_issues_001: Kafka引擎表常见问题001
+          trino_installation: Admin安装部署
   - redirects:
       redirect_maps:
         latest.md: presto_trino/index.md
@@ -187,3 +188,5 @@ nav:
           - guice-integration-configuration: google/guice/integration-configuration.md
   - Presto & Trino:
     - presto_trino/index.md
+    - Admin:
+        - trino_installation: presto_trino/admin/trino_installation.md
